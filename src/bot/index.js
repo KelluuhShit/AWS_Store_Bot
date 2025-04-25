@@ -21,8 +21,8 @@ app.use(express.json());
 
 // Set Telegram webhook
 bot.setWebHook(`${webhookUrl}/bot${token}`)
-  .then(() => console.log('Webhook set'))
-  .catch((err) => console.error('Webhook error:', err));
+  .then(() => console.log('Webhook set successfully'))
+  .catch((err) => console.error('Webhook setup error:', err));
 
 // Handle Telegram updates
 app.post(`/bot${token}`, (req, res) => {

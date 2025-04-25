@@ -1,13 +1,14 @@
 {
-    "name": "aws-store-bot",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js"
-    },
-    "dependencies": {
-      "node-telegram-bot-api": "^0.66.0",
-      "dotenv": "^16.4.5",
-      "winston": "^3.14.2"
-    }
+  "name": "aws-store-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.4.5",
+    "winston": "^3.14.2"
   }
+}
